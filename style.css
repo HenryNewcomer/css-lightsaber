@@ -1,0 +1,89 @@
+body {
+  color: red;
+  font-weight: bold;
+  background-color: #2b333f;
+  width: 100%;
+}
+
+#ls_container {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  translate: transform(-50%, -50%);
+  width: 100%;
+}
+
+div[blade] {
+  height: 120px;
+
+  width: 20px;
+}
+
+div[ls] {
+  position: relative;
+  top: 100px;
+  background-color: #000;
+  border-radius: 4px;
+  width: 14px;
+  height: 80px;
+}
+div[ls] div:nth-child(1n) {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  top:20px;
+  margin-bottom:4px;
+  width: 16px;
+  height: 4px;
+}
+
+div[ls] div:first-child {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  top:0px;
+  left:-4px;
+  width: 24px;
+  height: 10px;
+}
+div[ls] div:nth-child(2) {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  top:-5px;
+  margin-bottom:0px;
+  left:-1px;
+  width: 18px;
+  height: 12px;
+}
+div[ls] div:nth-child(3) {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  top:10px;
+  margin-bottom:10px;
+  width: 18px;
+  left:-1px;
+  height: 10px;
+}
+
+div[ls] div:last-child {
+  position: relative;
+  background-color: #e6e6e6;
+  border-radius: 0px;
+  top:20px;
+  margin-bottom:4px;
+  width: 16px;
+  height: 40px;
+}
+
+div[switch]{
+  position: relative;
+  background-color: #868686;
+  border-radius: 0px;
+  top:136px;
+  left:-2px;
+  margin-bottom:4px;
+  width: 10px;
+  height: 20px;
+}
